@@ -1,0 +1,70 @@
+Intially, data of all flights are assumed to be given in the form of a text file.
+
+All user is stored in a file so that it can be referenced later.
+(Example: When we exit the application and relaunch it, the application knows the account exists)
+
+Flights will be stored in a separate file on separate lines and each flight will have the format:
+FF000;yyyy-MM-dd HH:mm;yyyy-MM-dd HH:mm;Airline;Origin;Destination;$$$.$$;00
+
+Where:
+	FF000 				- Flight number(FF is the airline's code, 000 the flight code)
+	yyyy-MM-dd HH:mm	- Date and Time of departure(yyyy for year, MM for month, dd for day, HH for hour, mm for minute)
+	yyyy-MM-dd HH:mm	- Date and Time of arrival(yyyy for year, MM for month, dd for day, HH for hour, mm for minute)
+	Airline				- Name of the airline
+	Origin				- Origin of the flight
+	Destination			- Destination of the flight
+	$$$.$$				- Flight cost
+	00					- Number of seats for the flight
+
+Examples:
+	AC034;2012-01-01 21:20;2012-01-01 23:40;Air Canada;YYZ;ATL;1738.00;111
+	AC035;2012-01-02 01:10;2012-01-02 05:50;Air Canada;ATL;LAX;100.00;222
+	LH420;2002-04-20 14:40;2002-04-21 04:20;Lufthansa;YVR;LGW;2222.22;333
+	SW220;2016-09-20 13:37;2016-09-20 14:48;Southwest Airlines;JFK;YUL;120.99;444
+
+Client information will be stored in a separate files on separate lines which will have the format:
+LastName;FirstNames;Email;Address;0000111122223333;yyyy-MM-dd
+
+Where:
+	LastName 			- Last name of the client
+	FirstNames			- First names of the client
+	Email				- Email address of the client
+	Address				- Address of the user(can be street name only, or street name, city, country, etc.)
+	0000111122223333 	- Credit card number of the client (does not need to be 16 characters long)
+	yyyy-MM-dd			- Expiration date of the client's credit card(yyyy for year, MM for month, dd for day)
+
+Examples:
+	Doe;John;john.doe@mymail.com;1738 test street, Toronto, Canada;1111222233334444;1990-04-20
+	Xavier;Tyrone Marquis;tyronemarquis.xavier@bestmail.com;2014 Forest Hills Drive;999988887777;1991-02-20
+
+Admin information will be stored in a separate files on separate lines which will have the format:
+LastName;FirstNames;Email
+
+Where:
+	LastName 			- Last name of the admin
+	FirstNames			- First names of the admin
+	Email				- Email address of the admin
+	
+Password information will be stored in a separe file on separe lines which will have the format: 
+Email;Password
+
+Where:
+	Email 				- email address of the user
+	Password 			- password of the user
+
+Examples:
+	jane.doe@mymail.com;password
+	bob.johnson@bestmail.com;password
+	
+Examples:
+	Doe;Jane;jane.doe@mymail.com
+	Johnson;Bob;bob.johnson@bestmail.com
+	
+Booked itineraries for clients will be stored in a separate file where every line is a booked itinerary for a client, and will have the format:
+Email;FF000-FF000-FF000-FF000-FF000-FF000-FF000,FF000-FF000-FF000-FF000-FF000-FF000-FF000,
+
+Where:
+	Email 				- Email address of the client
+	FF000				- The flights which make up the itinerary which the client has booked
+*Multiple itineraries are separed by commas
+	

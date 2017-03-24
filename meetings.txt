@@ -1,0 +1,84 @@
+Nov 23 @ 1:00pm
+Planning Meeting
+Present: Mahdi, Kareem, Nathan, Daniel
+Current state of the project: 
+	done: phase 3 part a
+	implemented: phase 3 part a
+	almost done: N/A 
+Tasks for this week:
+	All: start working on p3b
+	Mahdi: 
+	Kareem: 
+	Nathan: 
+	Daniel: 
+
+-------------------------------------------	
+
+Nov 24 @ 4:00pm
+Planning Meeting
+Present: Mahdi, Kareem, Nathan, Daniel
+Current state of the project: 
+	done: phase 3 part a
+	implemented: phase 3 part a
+	almost done: N/A 
+Tasks for this week:
+	All: 
+	Mahdi: Fix duration class to work with android
+	Kareem: Updating edit flight info
+	Nathan: Work on saving database to files and read from files once application opens
+	Daniel: Create client and admin classes and methods. Work on passwords for clients/admins. (passwords)
+
+-------------------------------------------	
+
+Nov 25 @ 3:00pm
+Status Meeting
+Present: Mahdi, Kareem, Nathan, Daniel
+Accomplished since last meeting:
+	All: figuring out svn:ignore and updating p3a
+	Mahdi: 
+	Kareem: 
+	Nathan: 
+	Daniel: 
+Tasks for this week:
+	All: Same as previous meeting
+	Mahdi: 
+	Kareem:
+	Nathan:
+	Daniel: 
+Problems:
+	All: storing passwords, reading and writing from/to files
+	Mahdi: 
+	Kareem: 
+	Nathan: 
+	Daniel: 
+
+-------------------------------------------
+
+Nov 29 @ 6:30pm
+Planning Meeting
+Present: Mahdi, Kareem, Nathan, Daniel
+Current state of the project: 
+	done: Reading and writing from files, added Managers for Admin/Client/Password/Flight classes, edit and view Client/Flight info, Login for users
+	implemented: prompting admin to create password, searching itineraries, 
+	almost done: display flights/itineraries
+Tasks for this week:
+	All: putting it together
+	Mahdi: work on display flights/itineraries
+	Kareem: 
+	Nathan: 
+	Daniel: 
+-------------------------------------------
+
+Nov 30 @ 8:30pm(they almost kicked us out because of the power outage)
+Planning Meeting
+Present: Mahdi, Kareem, Nathan, Daniel
+Current state of the project: 
+	done: Done everything
+	implemented: 
+	almost done: 
+Tasks for this week:
+	All: 
+	Mahdi: 
+	Kareem: 
+	Nathan: 
+	Daniel: 

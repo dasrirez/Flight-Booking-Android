@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Flight Booking App</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="button_login">Login</string>
+    <string name="button_sign_up">Sign Up</string>
+    <string name="first_names">First Names</string>
+    <string name="last_name">Last Name</string>
+    <string name="address">Address</string>
+    <string name="credit_card_number">Credit Card Number</string>
+    <string name="date">Expiry Date (YYYY-MM-DD)</string>
+    <string name="main_menu">Main Menu</string>
+
+    <string name="first_names_view">First Names:</string>
+    <string name="last_name_view">Last Name:</string>
+    <string name="password_view">Password:</string>
+    <string name="address_view">Address:</string>
+    <string name="credit_card_number_view">Credit Card Number:</string>
+    <string name="date_view">Expiry Date (YYYY-MM-DD):</string>
+
+    <string name="button_confirm">Confirm</string>
+    <string name="enter_email">Enter e-mail</string>
+    <string name="enter_airline_number">Enter airline number</string>
+    <string name="departure_date">Departure Date (YYYY-MM-DD HH:MM):</string>
+    <string name="arrival_date">Arrival Date (YYYY-MM-DD HH:MM):</string>
+    <string name="airline">Airline:</string>
+    <string name="origin">Origin:</string>
+    <string name="destination">Destination:</string>
+    <string name="price">Price:</string>
+    <string name="num_seats">Number of Seats:</string>
+
+    <string name="upload_client_info">Upload Client Info:</string>
+    <string name="upload_flight_info">Upload Flight Info:</string>
+    <string name="upload_admin_info">Upload Admin Info:</string>
+    <string name="edit_view_client_info">Edit/View Client Info</string>
+    <string name="edit_flight_info">Edit Flight Info:</string>
+    <string name="update_info">Edit Info</string>
+    <string name="edit_view_info">Edit/View Info</string>
+    <string name="file_name">Enter file name</string>
+    <string name="read_file">Load File</string>
+    <string name="create_account">Create Account</string>
+
+    <!-- Flight booking  -->
+    <string name="fb_travel_date">Travel date</string>
+    <string name="fb_travel_origin">Travel origin</string>
+    <string name="fb_travel_destination">Travel destination</string>
+    <string name="fb_travel_origin_hint">Travel origin</string>
+    <string name="fb_travel_destination_hint">Travel destination</string>
+    <string name="fb_sort_by">Sort by</string>
+    <string name="fb_sort_order">Sort order</string>
+    <string name="fb_cost">Travel cost</string>
+    <string name="fb_travel_duration">Travel duration</string>
+    <string name="fb_ascending">Ascending</string>
+    <string name="fb_descending">Descending</string>
+    <string name="fb_search_itineraries">Search Itineraries</string>
+    <string name="fb_search_flights">Search Flights</string>
+    <string name="fb_date">YYYY-MM-DD</string>
+    <string name="fb_search_results">Search Results</string>
+
+    <string name="confirm_upload_text">Confirm Upload</string>
+    <string name="choose_manually">Choose Manually</string>
+
+    <string name="settings">Master Settings</string>
+    <string name="clear_clients">Clear Clients</string>
+    <string name="clear_flights">Clear Flights</string>
+    <string name="clear_admins">Clear Admins</string>
+    <string name="clear_passwords">Clear Passwords</string>
+    <string name="clear_booked_itineraries">Clear Booked Itineraries</string>
+
+    <string name="open_flight_booking">Open Flight Booking</string>
+    <string name="open_admin_panel">Open Admin Panel</string>
+    <string name="my_itineraries">My Itineraries</string>
+    <string name="view_booked_itineraries">View Booked Itineraries</string>
+
+    <string name="book_itinerary">Book Itinerary</string>
+
+    <string name="password_not_found">Account has no password, create one:</string>
+
+</resources>
