@@ -1,0 +1,1 @@
+**Grant storage permissions**
